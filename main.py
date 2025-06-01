@@ -7,7 +7,6 @@ import random
 from fastapi.encoders import jsonable_encoder
 from pydantic import BaseModel
 
-
 class Book(BaseModel):
     id: str
     title: str
